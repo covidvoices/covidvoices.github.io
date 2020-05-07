@@ -1,761 +1,294 @@
-
-
 <!DOCTYPE html>
-<!--
-https://www.linkedin.com/in/antoniotrento/
-https://twitter.com/lantoniotrento
-lantoniotrento@gmail.com
--->
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CovidVoices</title>
-    <meta name="description" content="We’re in this together.">
-    <meta name="author" content="Teddy">    
-    <meta name="keywords" content="helium, jekyll, bootstrap, UI, kit">
-    <link rel="canonical" href="https://heliumjk.github.io"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
 
-    <!--Google Font link-->
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
- <!--Helium css-->
-        <link rel="stylesheet" href="/assets/css/animate.css">
-        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/assets/css/jasny-bootstrap.min.css">
-        <link rel="stylesheet" href="/assets/css/main.css">
-        <link rel="stylesheet" href="/assets/css/owl.carousel.css">
-        <link rel="stylesheet" href="/assets/css/owl.theme.css">
-        <link rel="stylesheet" href="/assets/css/responsive.css">
-        <link rel="stylesheet" href="/assets/css/scrolling-nav.css">	  
+<html>
 
-	<!-- CSS loaded by the children page -->
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    CovidVoices
+  </title>
+
+  <meta name="description" content="We are in this together">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="CovidVoices" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">CovidVoices</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/bg-index.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>CovidVoices</h1>
+            
+            <span class="subheading">We are in this together</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
         
 
-    <meta property="og:title" content="CovidVoices">
-    <meta property="og:description" content="We’re in this together.">
-    <meta property="og:image" content="/assets/img/big/">
-    <meta property="og:url" content="">
-    <meta name="twitter:card" content="summary_large_image">
+        <!-- Home Post List -->
+        
 
-	<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-    <!-- Google ADS mobile block-->
-    
-    <script type="text/javascript" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script type="text/javascript">
-     (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-9204963049240271",
-        enable_page_level_ads: true
-        });
-    </script>
-    
-  </head>
-  <body>
-  <div class="wrapper">	  	  
-      <!--Home page style--> 
-                  <div class="top-menu">
-              <p>
-                <span class="left">
-                  <a href="#"><i class="fa fa-map-marker"></i>Allston, MA</a>
-                  <a href="#"><i class="fa fa-mobile-phone"></i>+1 (617) 372-4912‬</a>
-                  <a href="#"><i class="fa fa-envelope"></i>teodor.lange@gmail.com</a>
-              	</span>
-                <span class="right hidden-sm-down">
-                  <a href="https://www.facebook.com/lantoniotrento/"><i class="fa fa-facebook"></i></a>
-                  <a href="https://twitter.com/lantoniotrento"><i class="fa fa-twitter"></i></a>
-                  <a href="https://www.instagram.com/lantoniotrento/"><i class="fa fa-instagram"></i></a>
-              	</span>
-              </p>
-            </div>
+        <article class="post-preview">
+          <a href="/2017/10/31/man-must-explore.html">
+            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
+            
+            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
+            
+          </a>
+          <p class="post-meta">Posted by
+            
+            Sebastian
+            
+            on
+            October 31, 2017 &middot; <span class="reading-time" title="Estimated read time">
+  
+   4 mins  read </span>
+            
+          </p>
+        </article>
 
-            <!-- navbar-default -->
-            <nav class="navbar navbar-toggleable-sm navbar-light bg-default">
-              <div class="container">
-                <a class="navbar-brand" href=""><img src="/assets/images/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="fa fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar1">
-                  <ul class="navbar-nav">
-                    
-                    
-                    
+        <hr>
 
+        
 
+        <article class="post-preview">
+          <a href="/2017/10/31/heartbeats.html">
+            <h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2>
+            
+            <h3 class="post-subtitle">Never in all their history have men been able truly to conceive of the world...</h3>
+            
+          </a>
+          <p class="post-meta">Posted by
+            
+            Sebastian
+            
+            on
+            October 31, 2017 &middot; <span class="reading-time" title="Estimated read time">
   
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-      	
-      	<li class="nav-item"><a class="nav-link" href="/components">Componets</a></li>
-      	
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
+   4 mins  read </span>
+            
+          </p>
+        </article>
 
+        <hr>
 
+        
 
-                    <!-- <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown link</a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li> -->
-                  </ul>
-                </div>
-              </div>
-            </nav>
+        <article class="post-preview">
+          <a href="/2017/10/30/prophecy.html">
+            <h2 class="post-title">Science has not yet mastered prophecy</h2>
+            
+            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
+            
+          </a>
+          <p class="post-meta">Posted by
+            
+            Sebastian
+            
+            on
+            October 30, 2017 &middot; <span class="reading-time" title="Estimated read time">
   
-      
+   4 mins  read </span>
+            
+          </p>
+        </article>
 
+        <hr>
 
+        
 
+        <article class="post-preview">
+          <a href="/2017/10/29/exploration.html">
+            <h2 class="post-title">Failure is not an option</h2>
+            
+            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
+            
+          </a>
+          <p class="post-meta">Posted by
+            
+            Sebastian
+            
+            on
+            October 29, 2017 &middot; <span class="reading-time" title="Estimated read time">
+  
+   4 mins  read </span>
+            
+          </p>
+        </article>
 
+        <hr>
 
-<div id="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="page-header-title">
-              <h2 class="heading-title text-center">Headers</h2>
-            </div>
-            <div class="sub-title">
-              <span>Default Header</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Headers Start -->
-      <div id="headers">
-        <!-- Light header -->
-        <header id="header-style-1">
-          <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
-            <div class="container">
-              <a class="navbar-brand" href="index.html"><img src="/assets/images/logo-2.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="services.html">Item 1</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="sliders.html">Item 2</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown Item</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+        
 
-          <div class="container">
-            <div class="header-caption">
-              <div class="row">
-                <div class="col-md-12 header-content">
-                  <h3 class="header-title animated fadeInDown"><span class="text-primary">Helium </span> - Bootstrap 4 UI Kit</h3>
-                  <h5 class="header-text animated fadeIn">Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br>Lorem ipsum dolor sit amet, consectetuer.</h5>
-                  <a href="#" class="page-scroll btn btn-lg btn-default-filled animated fadeInUp">Download Now</a>
-                  <a href="#" class="page-scroll btn btn-lg btn-common animated fadeInUp">Explore</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-      </div>
-      <!-- End sliders -->
+        <article class="post-preview">
+          <a href="/2017/10/28/dreams.html">
+            <h2 class="post-title">The dreams of yesterday are the hopes of today and the reality of tomorrow.</h2>
+            
+            <h3 class="post-subtitle">Never in all their history have men been able truly to conceive of the world...</h3>
+            
+          </a>
+          <p class="post-meta">Posted by
+            
+            Sebastian
+            
+            on
+            October 28, 2017 &middot; <span class="reading-time" title="Estimated read time">
+  
+   4 mins  read </span>
+            
+          </p>
+        </article>
 
+        <hr>
 
-      <div class="mb-60"></div>
+        
 
-      <div class="sub-title">
-        <span>Follow the journey.</span>
-      </div>
-
-      <div class="row">
-        <!-- Start Image Service Box 1 -->
-        <div class="col-md-4">
-          <div class="image-service-box">
-            <img src="/assets/images/service/img1.jpg" alt="" />
-            <div class="service-text">
-
-              <h4><a href="#">Watch.</a></h4>
-            </div>
-          </div>
-        </div>
-        <!-- End Image Service Box 1 -->
-
-        <!-- Start Image Service Box 2 -->
-        <div class="col-md-4">
-          <div class="image-service-box">
-            <img src="/assets/images/service/img2.jpg" alt="" />
-            <div class="service-text">
-              <h4><a href="#">Listen.</a></h4>
-            </div>
-          </div>
-        </div>
-        <!-- End Image Service Box 2 -->
-
-        <!-- Start Image Service Box 3 -->
-        <div class="col-md-4">
-          <div class="image-service-box">
-            <img src="/assets/images/service/img3.jpg" alt="" />
-            <div class="service-text">
-              <h4><a href="#">Get insights.</a></h4>
-            </div>
-          </div>
-        </div>
-        <!-- End Image Service Box 3 -->
-      </div>
-
-	<!-- HEADER -->
-      <div class="header-style-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <figure>
-                <img src="/assets/images/bg/hero-2.png" alt="">
-              </figure>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="hero-content-v2">
-                <h3>Shifting the narrative from understanding COVID-19 numbersto understanding the people affected by the pandemic<br></h3>
-                <a href="/components" class="btn btn-lg btn-default-filled animated fadeInUp">Explore All</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-	<!-- END HEADER -->
-            <div class="mb-60"></div>
-
-      <!-- posts carousel -->
-      <!-- <section id="blog">
-        <div class="container">
-          <div id="posts-carousel" class="owl-carousel">
-           
-            <div class="blog-block blog block carousel-post">
-             
-              <img src="/assets/images/markdown-samples.jpg" alt="">
-             
-              <h5>Helium Jekyll Theme Markdown Examples</h5>
-              <p>
-<p>Markdown samples usefull when you start write your blog 🎉 🎆.</p>
-
-</p>
-              <a href="/docs/2017/10/08/helium-jekyll-theme-markdown-examples">Full Article <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
-           
-            <div class="blog-block blog block carousel-post">
-             
-              <img src="/assets/images/helium-jekyll.jpg" alt="">
-             
-              <h5>Make Your Jekyll Website Amazing</h5>
-              <p>
-<p>Jekyll can give you the possibility to make awesome websites in minutes.</p>
-</p>
-              <a href="/lessons/2017/03/20/make-your-jekyll-website-amazing">Full Article <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
-           
-            <div class="blog-block blog block carousel-post">
-             
-              <img src="/assets/images/syntax-hightlight.jpg" alt="">
-             
-              <h5>Helium Theme Syntax Highlight Example</h5>
-              <p>
-<p>An example post about code insertion into posts.</p>
-
-</p>
-              <a href="/lessons/2017/02/15/helium-theme-syntax-highlight-example">Full Article <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
-           
-            <div class="blog-block blog block carousel-post">
-             
-              <img src="/assets/images/helium-theme-post.jpg" alt="">
-             
-              <h5>Testing Locally Helium Jekyll</h5>
-              <p>
-<p>In this tutorial I will teach you <em>how to test your Jekyll Bootstrap3</em> site locally.</p>
-</p>
-              <a href="/lessons/2017/01/17/testing-locally-helium-jekyll">Full Article <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
-           
-            <div class="blog-block blog block carousel-post">
-             
-              <img src="/assets/images/helloworld.jpg" alt="">
-             
-              <h5>Hello World</h5>
-              <p>
-<p>Hello world! Is the first post on helium jekyll</p>
-</p>
-              <a href="/lessons/2017/01/01/hello-world">Full Article <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
-           
-          </div>
-        </div>
-      </section> -->
-
-      <!-- <div class="mb-60"></div>
-      <div id="counter">
-        <div class="container">
-          <h4 class="sub-title">Counters</h4>
-          <div class="row count-to-sec">
-            <div class="col-md-3 col-sm-6 count-one">
-              <span class="icon"><i class="fa fa-download"> </i></span>
-              <h3 class="timer count-value" data-to="561" data-speed="1000">561</h3>
-              <hr class="width25-divider">
-              <small class="count-title">Downloads</small>
-            </div>
-
-            <div class="col-md-3 col-sm-6 count-one">
-              <span class="icon"><i class="fa fa-user"> </i></span>
-              <h3 class="timer count-value" data-to="950" data-speed="1000">950</h3>
-              <hr class="width25-divider">
-              <small class="count-title">Developers</small>
-            </div>
-
-            <div class="col-md-3 col-sm-6 count-one">
-              <span class="icon"><i class="fa fa-desktop"> </i></span>
-              <h3 class="timer count-value" data-to="978" data-speed="1000">978</h3>
-              <hr class="width25-divider">
-              <small class="count-title">Lines of code written</small>
-            </div>
-
-            <div class="col-md-3 col-sm-6 count-one">
-              <span class="icon"><i class="fa fa-coffee"> </i></span>
-              <h3 class="timer count-value" data-to="1700" data-speed="1000">1700</h3>
-              <hr class="width25-divider">
-              <small class="count-title">Cups of coffee consumed</small>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-      <div class="mb-60"></div>
-
-    <!-- Team Members 03 -->
-    <div class="team-members-tow mtb-50">
-      <div class="sub-title">
-        <span>Meet the team!</span>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <!-- Team Item Starts -->
-          <figure>
-            <img src="/assets/images/team/franzi.jpg" alt="">
-            <div class="image-overlay">
-              <div class="overlay-text text-center">
-                <div class="info-text">
-                  <strong>Franzi</strong>
-                  <span>Social Media Specialist</span>
-                </div>
-                <hr class="small-divider border-white">
-                <ul class="social-icons">
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </figure>
-          <!-- Team Item Ends -->
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <!-- Team Item Starts -->
-          <figure>
-            <img src="/assets/images/team/kira.jpg" alt="">
-            <div class="image-overlay">
-              <div class="overlay-text text-center">
-                <div class="info-text">
-                  <strong>Kira</strong>
-                  <span>Creative Lead</span>
-                </div>
-                <hr class="small-divider border-white">
-                <ul class="social-icons">
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </figure>
-          <!-- Team Item Ends -->
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="/posts">View All Posts &rarr;</a>
         </div>
 
-        <div class="col-sm-6 col-md-4">
-          <!-- Team Item Starts -->
-          <figure>
-            <img src="/assets/images/team/paul.jpg" alt="">
-            <div class="image-overlay">
-              <div class="overlay-text text-center">
-                <div class="info-text">
-                  <strong>Paul</strong>
-                  <span>General Management</span>
-                </div>
-                <hr class="small-divider border-white">
-                <ul class="social-icons">
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </figure>
-          <!-- Team Item Ends -->
-        </div>
       </div>
     </div>
-    <!-- End Team Members 03 -->
-    <!-- Team Members 03 -->
-    <div class="team-members-tow mtb-50">
-
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <!-- Team Item Starts -->
-          <figure>
-            <img src="/assets/images/team/sebastian.jpg" alt="">
-            <div class="image-overlay">
-              <div class="overlay-text text-center">
-                <div class="info-text">
-                  <strong>Sebastian</strong>
-                  <span>Web Design</span>
-                </div>
-                <hr class="small-divider border-white">
-                <ul class="social-icons">
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </figure>
-          <!-- Team Item Ends -->
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <!-- Team Item Starts -->
-          <figure>
-            <img src="/assets/images/team/skuth.jpg" alt="">
-            <div class="image-overlay">
-              <div class="overlay-text text-center">
-                <div class="info-text">
-                  <strong>Skuuuth</strong>
-                  <span>Music</span>
-                </div>
-                <hr class="small-divider border-white">
-                <ul class="social-icons">
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </figure>
-          <!-- Team Item Ends -->
-        </div>
-
-        <div class="col-sm-6 col-md-4">
-          <!-- Team Item Starts -->
-          <figure>
-            <img src="/assets/images/team/ted.jpg" alt="">
-            <div class="image-overlay">
-              <div class="overlay-text text-center">
-                <div class="info-text">
-                  <strong>Ted</strong>
-                  <span>General Management</span>
-                </div>
-                <hr class="small-divider border-white">
-                <ul class="social-icons">
-                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </figure>
-          <!-- Team Item Ends -->
-        </div>
-      </div>
-    </div>
-    <!-- End Team Members 03 -->
-
-
-      <div class="mb-60"></div>
-
-
-
-      <!-- CONTACT FORM -->
-	<div class="container">
-	<div class="row">
-          <div class="col-md-8">
-            <h3 class="title-head text-center">Get in touch</h3>
-            <form class="contact-form" data-toggle="validator">
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="form-group">
-                    <i class="contact-icon fa fa-user"></i>
-                    <input type="text" class="form-control" id="name" placeholder="Full Name" required data-error="Please enter your name">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="form-group">
-                    <i class="contact-icon fa fa-envelope-o"></i>
-                    <input type="email" class="form-control" id="email" placeholder="Email" required data-error="Please enter your email">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="form-group">
-                    <i class="contact-icon fa fa-pencil-square-o"></i>
-                    <input type="text" class="form-control" id="cell" placeholder="Cell" required data-error="Please enter your cell">
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="form-group">
-                    <textarea id="message" rows="8" placeholder="Share your Voice" required data-error="Please share your voice"></textarea>
-                    <div class="help-block with-errors"></div>
-                  </div>
-                  <button type="submit" id="form-submit" class="btn btn-common btn-form-submit">Send Message</button>
-                  <div id="msgSubmit" class="h3 text-center hidden"></div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </form>
-          </div>
-
-          <div class="col-md-4">
-            <h4 class="contact-info-title">Contact Information</h4>
-            <div class="contact-info">
-              <address>
-							<i class="fa fa-map-marker icons cyan-color contact-info-icon"></i>
-							Boston
-							<br>
-							Massachussets, United States of America
-						</address>
-              <div class="tel-info">
-                <a href="tel:16173724912"><i class="fa fa-mobile icons cyan-color contact-info-icon"></i>+1 617 372 4912</a>
-              </div>
-              <a href="covidvoices.info@gmail.com"><i class="fa fa-envelope-o icons cyan-color contact-info-icon"></i>covidvoices.info@gmail.com</a>
-                            <ul class="social-links">
-                
-                <li>
-                  <a data-toggle="tooltip" title="Seguici e scopri il gruppo segreto!" href="https://www.facebook.com/lantoniotrento/" title="Facebook" class="fa fa-facebook"></a>
-                </li>
-                
-                
-                <li>
-                  <a data-toggle="tooltip" title="Cinguettiamo insieme" href="https://twitter.com/lantoniotrento" title="Twitter" class="fa fa-twitter"></a>
-                </li>
-                
-                 
-                <li>
-                  <a data-toggle="tooltip" title="NoAlFemminicidio su Instagram" href="https://instagram.com/lantoniotrento" title="Twitter" class="fa fa-instagram"></a>
-                </li>
-                
-                
-                <li>
-                  <a data-toggle="tooltip" title="Connettiti per collaborare" href="https://www.linkedin.com/in/antoniotrento/" title="LinkedIn" class="fa fa-linkedin"></a>
-                </li>
-                
-              </ul>
-
-            </div>
-          </div>
-
-        </div>
-	</div>
-
-
-
-<!-- Content area end -->
-</div>
-
-
-
-	  <br />
-            <!-- Footer -->
-      <footer class="default-footer text-center">
-        <div class="container">
-          <img class="mb-40 footer-logo" src="/assets/images/logo.png" alt="">
-          <span class="copy-right dis-blk">Covid Voices<i class="fa fa-heart cyan-color"></i> by <a href="https://duerrse.github.io">Sebastian</a></span>
-          <span class="social">
-                  <a href="https://www.facebook.com/lantoniotrento/"><i class="fa fa-2x fa-facebook"></i></a>
-                  <a href="https://twitter.com/lantoniotrento"><i class="fa fa-2x fa-twitter"></i></a>
-                  <a href="https://www.linkedin.com/in/antoniotrento/"><i class="fa fa-2x fa-linkedin"></i></a>
-                  <a href="https://www.instagram.com/lantoniotrento/"><i class="fa fa-2x fa-instagram"></i></a>
-
-          </span>
-        </div>
-      </footer>
-
   </div>
-  
-  
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:your-email@example.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/SBootstrap">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/StartBootstrap">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/BlackrockDigital">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Sebastian 2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
 
 
 
 
-        <!-- JS includes -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <script src="/assets/js/jquery.min.js"></script>
-        <script src="/assets/js/jquery.nav.js"></script>
-	<script src="/assets/js/owl.carousel.min.js"></script>
-        <script src="/assets/js/form-validator.min.js"></script>	  
-        <script src="/assets/js/contact-form-script.js"></script>
-        <script src="/assets/js/jasny-bootstrap.min.js"></script>
-        <script src="/assets/js/jquery.mixitup.js"></script>	  
-        <script src="/assets/js/jquery.countTo.js"></script>
-        <script src="/assets/js/jquery.easing.min.js"></script>
-        <script src="/assets/js/main.js"></script>	
-        <script src="/assets/js/scrolling-nav.js"></script>
-        <script src="/assets/js/tether.min.js"></script>
-        <script src="/assets/js/bootstrap.min.js"></script>
-
-	<!-- ********************* Grads SCRIPTING ******************************-->
-	<!--Custom script loaded by children page-->
-	<script src="/assets/js/sliders.js"></script>
+  gtag('config', 'UA-XXXXXXXXX-X');
+</script>
 
 
-	  
-  </body>
+
+</body>
+
 </html>
-
