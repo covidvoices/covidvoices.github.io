@@ -1,15 +1,14 @@
 title:              CovidVoices
-email:              your-email@example.com
+email:              covidvoices.info@gmail.com
 description:        We are in this together
-author:             Sebastian
+author:             Ted and Sebastian
 baseurl:            ""
 url:                "https://covidvoices.github.io/"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
-linkedin_username:
+twitter_username:   covidvoices
+github_username:    seduerr91
+facebook_username:  covidvoices
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
