@@ -3,7 +3,7 @@ email:              your-email@example.com
 description:        We are in this together
 author:             Sebastian
 baseurl:            ""
-url:                "https://covidvoices.github.io/blog"
+url:                "https://covidvoices.github.io/"
 
 # Social Profiles
 twitter_username:   SBootstrap
